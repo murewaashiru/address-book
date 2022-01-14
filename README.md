@@ -1,12 +1,10 @@
-## A Simple Address Book Application
+## A Simple App to get accounts and balances
 
 ### Pre-requisite
 - Java version > 11
-- Postgresql
 
 ## How to Install and run the application
 
-- Clone the application and install dependencies
-- In the `resources` package, run `cp example.application.properties application.properties` to create the variables and fill them
-- Start the application
-
+- Clone and start the application
+- Run `http://localhost:8080/api/account` to get all accounts
+- Run `http://localhost:8080/api/account/balance/{accountNumber}` to get a particular balance
